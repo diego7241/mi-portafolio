@@ -11,7 +11,10 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 10;
-    transition: .3s;
+    transition: left 0.3s ease;
+    /* Transición específica */
+    overflow-y: auto;
+    /* Scroll si el contenido excede */
 }
 
 .nav__list {
@@ -24,10 +27,14 @@
     font-size: 1.5rem;
     color: var(--title-color);
     font-weight: var(--font-bold);
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Transición para hover */
 }
 
 .nav__link:hover {
     color: hsl(43, 100%, 68%);
+    transform: scale(1.1);
+    /* Efecto zoom sutil */
 }
 
 .copyright {
@@ -47,24 +54,36 @@
     display: none;
     justify-content: center;
     align-items: center;
-    z-index: 1;
-    transition: .3s;
+    z-index: 11;
+    /* Asegura que esté sobre el sidebar */
+    transition: left 0.3s ease;
 }
 
 @media screen and (max-width: 1024px) {
     .aside {
         left: -110px;
+        /* Oculta la sidebar */
     }
 
     .nav__toggle {
         display: flex;
-    }
-
-    .nav__toggle {
-        left: 140px;
+        left: 1rem;
+        /* Posición ajustada cerca del borde */
     }
 
     .show-menu {
         left: 0;
+        /* Muestra el sidebar */
+    }
+
+    /* Ajuste para evitar que el contenido se tape */
+    .main-content {
+        margin-left: 0;
+        transition: margin-left 0.3s ease;
+    }
+
+    .show-menu~.main-content {
+        margin-left: 110px;
+        /* Ajusta el margen según el ancho del sidebar */
     }
 }

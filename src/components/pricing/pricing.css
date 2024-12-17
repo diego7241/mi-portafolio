@@ -91,3 +91,9 @@
 
     }
 }
+
+.pricing__icon {
+    font-size: 3rem;
+    color: var(--title-color);
+    margin-bottom: 1rem;
+}
