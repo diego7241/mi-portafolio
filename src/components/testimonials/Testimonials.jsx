@@ -15,25 +15,34 @@ const data = [
     {
         id: 1,
         image: Image1,
-        title: "John Doe",
-        subtitle: "Product designer at Dribble",
+        title: "Carlos Rodríguez",
+        subtitle: "CEO en Innovatech Solutions",
         comment:
-            "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+            "El trabajo realizado superó nuestras expectativas. La página web fue desarrollada de manera rápida y con una interfaz moderna y funcional. ¡Muy recomendado!",
     },
     {
         id: 2,
         image: Image3,
-        title: "John Doe",
-        subtitle: "Product designer at Dribble",
+        title: "María Pérez",
+        subtitle: "Gerente de Marketing en Creative Designs",
         comment:
-            "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+            "Excelente atención y profesionalismo. La implementación de las herramientas de diseño y desarrollo web impulsó nuestro proyecto significativamente. 🚀",
+    },
+    {
+        id: 3,
+        image: Image1,
+        title: "Juan Martín",
+        subtitle: "Desarrollador en FreelanceTech",
+        comment:
+            "Fue un placer trabajar en conjunto. El diseño UI/UX es intuitivo y atractivo, cumpliendo con todos los requerimientos. ¡Gracias por el excelente trabajo!",
     },
 ];
+
 
 const Testimonials = () => {
     return (
         <section className="testimonials container section">
-            <h2 className="section__title">Clients & Reviews</h2>
+            <h2 className="section__title">Clientes y opiniones</h2>
 
             <Swiper className="testimonials__container grid"
                 // Install Swiper modules

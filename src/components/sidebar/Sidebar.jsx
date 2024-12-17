@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './sidebar.css';
 import Logo from '../../assets/logo.svg';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
 
 
 const Sidebar = () => {
@@ -66,7 +69,7 @@ const Sidebar = () => {
             </aside>
             <div className={toggle ? "nav__toggle nav__toggle-open " :
                 "nav__toggle"} onClick={() => showMenu(!toggle)}>
-                <i className="icon_menu"></i>
+                <i className={`fas ${toggle ? "fa-times" : "fa-bars"}`}></i>
             </div>
         </>
     );

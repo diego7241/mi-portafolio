@@ -3,8 +3,13 @@
 }
 
 .contact__container {
-    grid-template-columns: 4fr 8fr;
-    column-gap: 1.875rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+}
+
+.contact__info {
+    text-align: center;
 }
 
 .contact__title {
@@ -20,7 +25,7 @@
 
 .contact__form-div {
     position: relative;
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.5rem;
     height: 3.75rem;
 }
 
@@ -37,7 +42,7 @@
     outline: none;
     border-radius: 1.875rem;
     padding: 0.625rem 1.875rem;
-    z-index: 1;
+    font-size: 1rem;
 }
 
 .contact__form-area {
@@ -46,23 +51,68 @@
 
 .contact__form-area textarea {
     resize: none;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.875rem;
+    font-size: 1rem;
 }
 
+/* Mejoras Responsive */
 @media screen and (max-width: 1024px) {
     .contact__container {
-        grid-template-columns: 300px 360px;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
         justify-content: center;
+        text-align: center;
     }
 
     .contact__form-group {
         grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+
+    .contact__form-div {
+        height: 3.5rem;
+    }
+
+    .contact__form-area {
+        height: 8rem;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .contact.section {
+        padding: 3rem 1rem;
+    }
 
-@media screen and (max-width: 350px) {
-    .contact__container {
-        grid-template-columns: 1fr;
+    .contact__title {
+        font-size: 1.5rem;
+    }
 
+    .contact__form-input {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .contact__form-area textarea {
+        height: 7rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact.section {
+        padding: 2rem 1rem;
+    }
+
+    .contact__title {
+        font-size: 1.25rem;
+    }
+
+    .contact__form-input,
+    .contact__form-area textarea {
+        font-size: 0.8rem;
     }
 }

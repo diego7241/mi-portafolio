@@ -83,3 +83,16 @@
 
     }
 }
+
+.blog__category {
+    background-color: #6c63ff;
+    /* Color más llamativo */
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0.3rem 0.7rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.blog__category:hover {
+    transform: scale(1.1);
+}

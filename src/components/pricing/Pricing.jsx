@@ -1,47 +1,45 @@
 import React from 'react';
 import "./pricing.css";
-import Image1 from "../../assets/price-1.svg";
-import Image2 from "../../assets/price-2.svg";
-import Image3 from "../../assets/price-3.svg";
+import { FaLaptopCode, FaProjectDiagram, FaTools } from "react-icons/fa";
 
 const Pricing = () => {
     return (
         <section className="pricing container section">
-            <h2 className="section__title">Pricing Plans</h2>
+            <h2 className="section__title">Planes de Servicios</h2>
 
             <div className="pricing__container grid">
                 <div className="pricing__item">
-                    <img src={Image1} alt="" className="pricing__img" />
-                    <h3 className="pricing__plan">Basic</h3>
-                    <p className="pricing__title">A Simple option but powerful to manage your business</p>
-                    <p className="pricing__support">Email support</p>
+                    <FaLaptopCode className="pricing__icon" />
+                    <h3 className="pricing__plan">Diseño Web Básico</h3>
+                    <p className="pricing__title">Ideal para pequeños negocios y sitios personales. Incluye diseño responsivo y 1 página.</p>
+                    <p className="pricing__support">Soporte por email</p>
                     <h3 className="price">
-                        <em>$</em> 9 <span>Month</span>
+                        $ 99 <span>/ Proyecto</span>
                     </h3>
-                    <a href="" className="btn">Get Started</a>
+                    <a href="#" className="btn">Solicita Ahora</a>
                 </div>
 
                 <div className="pricing__item best">
-                    <span className='badge' >Recomendado</span>
-                    <img src={Image2} alt="" className="pricing__img" />
-                    <h3 className="pricing__plan">Premium</h3>
-                    <p className="pricing__title">Unlimited product including app integration and more features</p>
-                    <p className="pricing__support">Mon-Fri support</p>
+                    <span className='badge'>Recomendado</span>
+                    <FaProjectDiagram className="pricing__icon" />
+                    <h3 className="pricing__plan">Paquete Avanzado</h3>
+                    <p className="pricing__title">Sitios web completos con hasta 5 páginas, diseño responsivo y SEO básico.</p>
+                    <p className="pricing__support">Soporte Mon-Fri</p>
                     <h3 className="price">
-                        <em>$</em> 15 <span>Month</span>
+                        $ 199 <span>/ Proyecto</span>
                     </h3>
-                    <a href="" className="btn">Get Started</a>
+                    <a href="#" className="btn">Solicita Ahora</a>
                 </div>
 
                 <div className="pricing__item">
-                    <img src={Image3} alt="" className="pricing__img" />
-                    <h3 className="pricing__plan">Ultimate</h3>
-                    <p className="pricing__title">A wise option for large companies and individuals</p>
-                    <p className="pricing__support">24/7 support</p>
+                    <FaTools className="pricing__icon" />
+                    <h3 className="pricing__plan">Desarrollo Personalizado</h3>
+                    <p className="pricing__title">Proyectos a medida: tiendas online, landing pages y herramientas avanzadas.</p>
+                    <p className="pricing__support">Soporte 24/7 y mantenimiento</p>
                     <h3 className="price">
-                        <em>$</em> 19 <span>Month</span>
+                        $ 299 <span>/ Proyecto</span>
                     </h3>
-                    <a href="" className="btn">Get Started</a>
+                    <a href="#" className="btn">Solicita Ahora</a>
                 </div>
             </div>
         </section>

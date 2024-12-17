@@ -62,3 +62,22 @@
     height: 0.375rem !important;
     border-radius: 0.5rem !important;
 }
+
+.testimonials__title {
+    font-weight: bold;
+    color: var(--first-color);
+    margin-top: 1rem;
+}
+
+.comment {
+    font-style: italic;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.thumb img {
+    border: 2px solid var(--first-color);
+    border-radius: 50%;
+    width: 5.6rem;
+    height: 5.6rem;
+}
