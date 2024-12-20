@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mi-portafolio/static/css/main.1b2924de.css",
-    "main.js": "/mi-portafolio/static/js/main.e0c3a64b.js",
+    "main.css": "/mi-portafolio/static/css/main.18532bce.css",
+    "main.js": "/mi-portafolio/static/js/main.d0ebe0be.js",
     "static/js/453.211be4f6.chunk.js": "/mi-portafolio/static/js/453.211be4f6.chunk.js",
     "static/media/fa-solid-900.ttf": "/mi-portafolio/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/mi-portafolio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -29,12 +29,12 @@
     "static/media/dots-bg.svg": "/mi-portafolio/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
     "static/media/service-2.svg": "/mi-portafolio/static/media/service-2.6d0fa41b156627f2d8822a2f1bd6097b.svg",
     "index.html": "/mi-portafolio/index.html",
-    "main.1b2924de.css.map": "/mi-portafolio/static/css/main.1b2924de.css.map",
-    "main.e0c3a64b.js.map": "/mi-portafolio/static/js/main.e0c3a64b.js.map",
+    "main.18532bce.css.map": "/mi-portafolio/static/css/main.18532bce.css.map",
+    "main.d0ebe0be.js.map": "/mi-portafolio/static/js/main.d0ebe0be.js.map",
     "453.211be4f6.chunk.js.map": "/mi-portafolio/static/js/453.211be4f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b2924de.css",
-    "static/js/main.e0c3a64b.js"
+    "static/css/main.18532bce.css",
+    "static/js/main.d0ebe0be.js"
   ]
 }
