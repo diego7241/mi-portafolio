@@ -107,24 +107,42 @@
     }
 }
 
-/* Responsive para pantallas pequeñas */
+/* Ajustes para pantallas pequeñas (480px y menores) */
 @media screen and (max-width: 480px) {
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .about__data {
+        width: 90%;
+        /* Asegura que ocupe la mayor parte del ancho disponible */
+        text-align: center;
+        /* Centra el contenido */
+    }
+
     .about__skills {
-        grid-template-columns: 1fr;
+        width: 100%;
+        /* Asegura que las barras ocupen todo el ancho disponible */
+        margin-top: 1rem;
+    }
+
+    .skills__titles {
+        justify-content: space-between;
+        /* Asegura buena separación entre los textos */
+        margin-bottom: 0.5rem;
+    }
+
+    .skills__percentage {
+        height: 10px;
+        /* Incrementa el grosor de las barras para mejor visibilidad */
     }
 
     .about__boxes {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .about__container {
-        grid-template-columns: 1fr;
-    }
-
-    .about__title {
-        font-size: 1.25rem;
+        display: none;
+        /* Oculta las estadísticas adicionales en pantallas pequeñas */
     }
 }
