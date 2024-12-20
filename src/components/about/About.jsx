@@ -20,7 +20,8 @@ const About = () => {
                             Me especializo en combinar creatividad y funcionalidad, asegurando sitios web
                             visualmente atractivos y funcionales.
                         </p>
-                        <a href="/cv.pdf" className="btn" download="JuanDiego_CV.pdf">Download CV</a>
+                        <a href="/mi-portafolio/cv.pdf" className="btn" download="JuanDiego_CV.pdf">Download CV</a>
+
 
                     </div>
 
