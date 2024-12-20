@@ -14,7 +14,7 @@ const HeaderSocials = () => {
             </a>
 
             {/* LinkedIn */}
-            <a href="www.linkedin.com/in/juan-diego-gonzales-ramos-13724b243" className="home__social-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/juan-diego-gonzales-ramos-13724b243/?originalSubdomain=pe" className="home__social-link" target="_blank" rel="noopener noreferrer">
                 <i className="fa-brands fa-linkedin"></i>
             </a>
 
