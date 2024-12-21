@@ -16,7 +16,7 @@ const Contact = () => {
         const message = form.current.message.value.trim();
 
         if (!name || !email || !subject || !message) {
-            toast.error('Por favor, completa todos los campos antes de enviar.');
+            toast.error('Por favor, completa todos los campos antes de enviar..');
             return;
         }
 
