@@ -18,7 +18,7 @@ const Blog = () => {
                     <div className="blog__details">
                         <h3 className="blog__title">3 Herramientas Esenciales para Diseño Web</h3>
                         <div className="blog__meta">
-                            <span>15 Enero, 2024</span>
+                            <span>17 Enero, 2024</span>
                             <span className="blog__dot">.</span>
                             <span>Juan Diego</span>
                         </div>
